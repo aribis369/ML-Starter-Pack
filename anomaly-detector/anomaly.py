@@ -8,17 +8,17 @@ inputx=df.loc[:,["1","2","3","4","5","6","7","8","9","10","11","12","13","14","1
     
 inputy=df.loc[:,("37")].as_matrix()
 
-outliner=[]
+outlier=[]
 normal=[]
 
 for i in range(len(inputy)):
     if inputy[i]=="o":
-        outliner.append(inputx[i])
+        outlier.append(inputx[i])
     else:
         normal.append(inputx[i])
 
-# 75 vectors in outliner and 5075 vectors in normal
-outliner=np.array(outliner)
+# 75 vectors in outlier and 5075 vectors in normal
+outlier=np.array(outlier)
 normal=np.array(normal)
 
 # n=36 i.e. no. of features
@@ -56,7 +56,7 @@ for m in normal:
 covar=covar.T/1e2
 #print(covar)
 sigma=np.linalg.det(covar)
-#x=outliner[100]
+#x=outlier[100]
 print("sqrt",math.sqrt(sigma))
 
 res=[]
