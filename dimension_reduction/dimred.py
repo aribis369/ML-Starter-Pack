@@ -8,6 +8,7 @@ from mpl_toolkits.mplot3d import axes3d
 df=pd.read_csv("/home/arindam/Desktop/tfmodel/data.csv")
 in_data=df.drop(["Close","Volume"],axis=1)
 label=df.drop(["Open","High","Low","Volume"],axis=1)
+in_data["Open"] = pd.to_numeric(in_data["Open"],errors='coerce') #conversion of "Open" column to float so that it can be compared to "Close"
 in_data.loc[:,("Result")]=in_data["Open"]<=label["Close"]
 in_data.loc[:,("Result")]=in_data["Result"].astype(int)
 pro=in_data.ix[in_data["Result"]==1]
