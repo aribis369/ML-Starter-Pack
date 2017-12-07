@@ -1,0 +1,14 @@
+This is written by following this excercise http://openclassroom.stanford.edu/MainFolder/DocumentPage.php?course=MachineLearning&doc=exercises/ex6/ex6.html
+
+This dataset comes from the Lingspam Dataset, 
+specifically, the lemm-stop subset. The emails have been
+edited to remove punctuation and standalone numbers.
+The "Subject" word that begins each email has been removed.
+Additionally, all tabs and newlines have been 
+collapsed to a single space.
+
+The original dataset can be found here:
+http://csmining.org/index.php/ling-spam-datasets.html
+
+
+The data is used with permission from Ion Androutsopoulos.
