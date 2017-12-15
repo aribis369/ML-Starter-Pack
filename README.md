@@ -62,6 +62,7 @@ An ipython notebook as well as a python script is added in the folder which show
 
 ### 14. Examples implemented using Tensorflow
   1. Digit classification from MNIST dataset using CNN
+  2. Digit classification from MNIST dataset using ANN
 
 ### 15. Gradient Descent
 Implementation of gradient descent(an optimizing algorithm) from start.
