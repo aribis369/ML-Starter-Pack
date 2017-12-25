@@ -49,12 +49,16 @@ PCA (Principal Component Analysis) algorithm is used for reducing dimensions. Fo
 An ipython notebook as well as a python script is added in the folder which shows the implementation of this algorithm.
 
 ### 11. Examples implemented using Keras
-  1. Digit Recognition using MNIST dataset
+  1. Digit Recognition in MNIST dataset using CNN
+  2. Iceberg Recognition from Satellite images using Keras Deep NN.
+  3. Basic Neural Network using Keras. 
 
 ### 12. Examples implemented using pyTorch
   1. Classification of biomechanical orthopedic patients using Pytorch tensor
   2. Implementing a neural network using pyTorch
-
+  3. Hand Sign Image Recognition using Pytorch CNN.
+  4. Hand Written Digit Recognition using Pytorch Deep NN. 
+  
 ### 13. Examples implemented using scikit
   1. Analyzing Iris Dataset using Linear Regression, Logistic Regression, Decision Tree, Naive Bayes and SVM.
   1. Analysis of Titanic dataset
@@ -63,9 +67,11 @@ An ipython notebook as well as a python script is added in the folder which show
 ### 14. Examples implemented using Tensorflow
   1. Digit classification from MNIST dataset using CNN
   2. Digit classification from MNIST dataset using ANN
+  3. Simple Reccurent Neural Network using Tensorflow.
 
 ### 15. Gradient Descent
-Implementation of gradient descent(an optimizing algorithm) from start.
+  1. Implementation of gradient descent(an optimizing algorithm) from start.
+  2. Implementation of MiniBatch Gradient Descent Algorithm 
 
 ### 16. Stock Prediction using Long Short-Term Memory (LSTM) 
 Recurrent Neural Networks allow information to persist, solving one major drawback of traditional neural nets. 
