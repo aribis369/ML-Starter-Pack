@@ -100,16 +100,3 @@ Recurrent Neural Networks allow information to persist, solving one major drawba
 LSTMs are designed specially to avoid the long-term dependency problem.
 Remembering information for long periods of time is fortunately their default behavior, and not something they struggle to learn.
 A stock preditor using LSTM is implemented here. 
-
-
-### 17.Decision Tree Classifiers 
-Understanding and Implementation of Decision Tree from Scratch with different types of examples.
-Examples like Rain Predictor Decision Tree and Effective ways to visualize data .
-Go to the folder and Enjoy Learnig :
- - https://github.com/Lightning-Bug/ML-Starter-Pack/tree/master/Decision%20Tree%20Classifier
- 
-### 18.Recommendation Engines 
-Ever wondered, “what algorithm **Google** uses to maximize its target ads revenue?”. What about the Giant e-commerce websites like **Amazon** which advocates you through options such as ‘people who bought this also bought this’?
-The answer is Recommendation Engines.
-Go to the folder and Explore them from Scratch :
- - https://github.com/Lightning-Bug/ML-Starter-Pack/tree/master/Recommedation%20Engines
