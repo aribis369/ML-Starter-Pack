@@ -30,6 +30,7 @@ Logistic Regression is basically a classification algorithm which is used to est
 The folder contains an ipython notebook depicting the implementation of logistic regression without any helper machine learning libraries.
 
 ### 8.Demonstration of the basics of Natural Language Processing
+Natural Language Processing broadly refers to the study and development of computer systems that can interpret speech and text as humans naturally speak and type it. The folder contains a basic implemetation of NLP to predict whether a costumer in a restaurant liked the food or not based on his reviews. 
 
 ### 9. Naive Bayes
 Naive Bayes is a popular classification algorithm which assumes that one variable is independent of the other.
